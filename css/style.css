@@ -75,6 +75,10 @@ h4{
     text-align: center;
 }
 
+.skill_table tr{
+    text-align: center;
+}
+
 img{
     height: 200px;
     width: 300px;

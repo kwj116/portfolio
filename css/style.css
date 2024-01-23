@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 4fr;;
+}
+
+.grid1{
+    background-color: #a4c7d8;
+    display: grid;
+    grid-template-rows: 3.5fr 1fr 1fr 1fr 1fr;
+}
+
+.grid2{
+    background-color: #fff;
+    height: 100%;
+    display: grid;
+}
+
+.id_photo{
+    height: 200px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.id_photo_box{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.item{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+h4{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.item1{
+    border-top: 1px solid white;
+}
+
+.introduce{
+}
+
+.skill{
+
+}
+
+.portfolio{
+}
+
+.contact{
+}
+
+.content{
+    padding: 50px;
+    border-bottom: 1px solid lightgray;
+}

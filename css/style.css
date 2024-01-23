@@ -11,7 +11,7 @@ body{
 .grid1{
     background-color: #a4c7d8;
     display: grid;
-    grid-template-rows: 3.5fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
 }
 
 .grid2{
@@ -66,4 +66,9 @@ h4{
 .content{
     padding: 50px;
     border-bottom: 1px solid lightgray;
+}
+
+video{
+    height: 300px;
+    width: 500px;
 }

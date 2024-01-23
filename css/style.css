@@ -79,6 +79,13 @@ h4{
     text-align: center;
 }
 
+.skill_table td{
+    border : 1px solid #a4c7d8;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+}
+
 img{
     height: 200px;
     width: 300px;

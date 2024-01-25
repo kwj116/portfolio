@@ -5,11 +5,14 @@ const portfolio = document.querySelector('.menu3');
 const contact = document.querySelector('.menu4');
 
 window.addEventListener('scroll',function(e){
-        if (window.scrollY !== 0) {
-            header.style.opacity = '0.7';
-        }
+    if (window.scrollY !== 0) {
+        header.style.backgroundColor = '#bed9e8';
+        header.style.transition ='0.2s ease-in-out';
+
+    }
     else{
-        header.style.opacity = '1';
+        header.style.backgroundColor = 'whitesmoke';
+        header.style.transition ='0.2s ease-in-out';
     }
 })
 

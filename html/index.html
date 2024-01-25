@@ -7,62 +7,64 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>김윤재 포트폴리오</title>
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <!--메뉴 바 -->
+    <div class="header">
         <div class="grid1">
-            <div class="id_photo_box">
-                <img class="id_photo" src="../img/idPhoto.jpg">
-                <h3>김윤재</h3>
-            </div>
-            <div class="item item1"><h4>소개</h3></div>
-            <div class="item item2"><h4>보유 스킬</h3></div>
-            <div class="item item3"><h4>포트폴리오</h3></div>
-            <div class="item item4"><h4>연락처</h3></div>
+            <h3>김윤재</h3>
         </div>
-        <!-- 메뉴바 끝 -->
-
-        <!-- 본문 -->
         <div class="grid2">
-            <div class="introduce content">
-                <h2>소개</h2>
-                <p class="greetings">안녕하세요 백엔드 개발자 김윤재 입니다! <br>
-                    저는 대학 초반부터 파이썬, C언어 등 여러가지 프로그래밍 언어를 접했고,<br>
-                    웹 개발 관련 수업을 듣게 되며 제대로 코딩에 흥미가 생겨
-                    혼자서 리액트를 공부해보며,<br> HTML,CSS,JS, 
-                    또한 스프링도 공부를 하며 백엔드 개발자에 관심이 생기게 되었습니다. <br>
-                    코딩을 할 때 집중이 가장 잘되며, 즐길 수 있는 능력으로 생산성 높은 코딩을 하며
-                    협업하기 좋은 개발자가 되고 싶습니다. 
-                </p>
-                
-            </div>
-            <div class="skill content">
-                <h2>보유 스킬</h2>
-                <table class="skill_table" align="center">
-                    <tr>
-                        <td>HTML</td>
-                        <td>JavaScript</td>
-                        <td>CSS</td>
-                        <td>JAVA</td>
-                        <td>JSP</td>
-                    </tr>
-                    <tr>
-                        <td>Spring Boot</td>
-                        <td>JPQL</td>
-                        <td>SQL</td>
-                        <td>GitHub</td>
-                        <td>Ajax</td>
-                    </tr>
-                    <tr>
-                        <td>MariaDB</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="portfolio content">
-                <h2>포트폴리오</h2>
-                <table>
+            <h4 class="menu1">소개</h4>&ensp;
+            <h4 class="menu2">보유 스킬</h4>&ensp;
+            <h4 class="menu3">포트폴리오</h4>&ensp;
+            <h4 class="menu4">연락처</h4>
+        </div>
+    </div>
+    <div class="container">
+    <!-- header -->
+        <div class="introduce content">
+            <h2>소개</h2>
+            <table class="greetings">
+                <tr>
+                    <td class="img_box"><img class="id_photo" src="../img/idPhoto.jpg"></td>
+                    <td>안녕하세요 백엔드 개발자 김윤재 입니다! <br>
+                        저는 대학 초반부터 파이썬, C언어 등 여러가지 프로그래밍 언어를 접했고,<br>
+                        웹 개발 관련 수업을 듣게 되며 제대로 코딩에 흥미가 생겨
+                        혼자서 리액트를 공부해보며,<br> HTML,CSS,JS, 
+                        또한 스프링도 공부를 하며 백엔드 개발자에 관심이 생기게 되었습니다. <br>
+                        코딩을 할 때 집중이 가장 잘되며, 즐길 수 있는 능력으로 생산성 높은 코딩을 하며
+                        협업하기 좋은 개발자가 되고 싶습니다. 
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="skill content">
+            <h2>보유 스킬</h2><br>
+            <table class="skill_table" align="center">
+                <tr>
+                    <td>HTML</td>
+                    <td>JavaScript</td>
+                    <td>CSS</td>
+                    <td>JAVA</td>
+                    <td>JSP</td>
+                </tr>
+                <tr>
+                    <td>Spring Boot</td>
+                    <td>JPQL</td>
+                    <td>SQL</td>
+                    <td>GitHub</td>
+                    <td>Ajax</td>
+                </tr>
+                <tr>
+                    <td>MariaDB</td>
+                </tr>
+            </table>
+        </div>
+        <div class="portfolio content">
+            <h2>포트폴리오</h2>
+            <div class="table_box">
+                <table class="portfolio_table">
                     <tr>
                         <th>
                             <a href="https://drive.google.com/drive/folders/1F-XAqDNhFAOFjX_6gs06N7zj6aEZ4e-F">
@@ -91,17 +93,17 @@
                         </td>
                     </tr>
                 </table>
-            </div>
-            <div class="contact content">
-                <h2>연락처</h2>
+            </div>    
+        </div>
+        <div class="contact content">
+            <h2>연락처</h2>
+            <div class="contact_box">
                 <p>phone : 010-2597-1764</p>
                 <p>email : kwj116@hanmail.net</p>
                 <p>blog : <a href="https://yooolooo.tistory.com/">https://yooolooo.tistory.com/</a></p>
-                
-            </div>
-            
+            </div>    
         </div>
     </div>
 </body>
-<script src="../js/"></script>
+<script src="../js/anchor.js"></script>
 </html>

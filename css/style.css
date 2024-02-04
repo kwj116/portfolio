@@ -176,6 +176,16 @@ h3{
         flex-direction: column;
     }
 
+    .skill{
+        width: 400px;
+    }
+
+    .skill_table td{
+        border : 2px solid white;
+        border-radius: 30px;
+        padding:10px;
+    }
+
     th{
         display: none;
     }
@@ -190,14 +200,6 @@ h3{
     .hide_img{
         height: 200px;
         width: 340px;
-    }
-
-    .line{
-    }
-
-
-    .skill{
-        
     }
 
     h3{

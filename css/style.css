@@ -4,7 +4,8 @@ body{
     font-family: 'IBM Plex Sans KR', sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color:#1e2021;
+    color:white;
 }
 
 td{
@@ -14,7 +15,7 @@ td{
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 h4{
@@ -45,7 +46,8 @@ a:hover{
     grid-template-columns: 0.7fr 1fr;
     justify-content: end;
     position: fixed;
-    background-color: whitesmoke;
+    background-color:#1e2021;
+    
 }
 
 
@@ -86,11 +88,11 @@ a:hover{
     width: 80%;
     height: 90vh;
     scroll-margin-top: 130px;
-    border: 2px dotted white;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #bed9e8;
+    background-color: #313537;
+    border: white solid 1px;
 }
 
 .greetings{
@@ -99,6 +101,7 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+
 
 
 .table_box{
@@ -124,7 +127,9 @@ a:hover{
 }
 
 .portfolio{
+    color:white;
     scroll-margin-top: 240px;
+    height:130vh;/*프로젝트 추가되면 이부분의 높이 조정해줘야함*/
 }
 
 .contact_box{
@@ -154,9 +159,7 @@ h3{
     }
 
 
-    .grid2{
-        color:tomato;
-    }
+    
 
     .grid1 {
         display: none;
